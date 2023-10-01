@@ -99,10 +99,9 @@ function clickButton(index) {
       document.getElementById("7").innerText == "O");
   if (row1 || row2 || row3 || col1 || col2 || col3 || d1 || d2) {
     winningAlert(document.getElementById(index).innerText);
-    location.reload();
   }
-  console.log(arr);
 }
+console.log(arr);
 
 /**
  * (Optional) It's always a good idea to make a function for every single purpose.
